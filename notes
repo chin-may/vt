@@ -1,0 +1,23 @@
+In C, function pointers can be used to call the function without explicitly using
+a * to dereference.
+eg. fptr points to fn that returns int and takes a char parameter
+int x = *fptr ('a');
+and also
+int x = fptr ('a');
+Can be used.
+
+Terminals we use inside the GUI are pty s (see man pty)
+the command `tty` prints the file name of the tty currently connected to 
+standard input
+
+Possibly helpful (Is about a driver for serial console, but still)
+http://www.linux.it/~rubini/docs/sercons/sercons.html
+
+ldisc: line discipline
+
+Ttys etc from the user's pov:
+http://www.linusakesson.net/programming/tty
+
+struct termios is used to hold all the line settings for a specific port 
+on the tty device (line settings include baud rate etc, see linusakesson link).
+(tty0 is one tty port)
