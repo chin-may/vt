@@ -1,3 +1,10 @@
+IMP: What does the vt driver DO?
+It does the work of the 'Terminal emulator'
+in this http://www.linusakesson.net/programming/tty/case3.png .
+
+scr_writew() writes to the VGA console.
+
+
 In C, function pointers can be used to call the function without explicitly using
 a * to dereference.
 eg. fptr points to fn that returns int and takes a char parameter
