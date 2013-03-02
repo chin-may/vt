@@ -1,1 +1,3 @@
 When does the console need to be locked?
+
+Cannot find definition of register_console ! (Declared as extern in cosole.h)

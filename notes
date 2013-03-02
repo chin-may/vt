@@ -21,3 +21,5 @@ http://www.linusakesson.net/programming/tty
 struct termios is used to hold all the line settings for a specific port 
 on the tty device (line settings include baud rate etc, see linusakesson link).
 (tty0 is one tty port)
+
+Compiling with CONFIG_VT option enables virtual terminals in the kernel.
